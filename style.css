@@ -2,42 +2,34 @@
 /* font families added: franklin-gothic-urw,
 acumin-pro, linotype-sabon
 */
-* {
+html {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  scroll-behavior: smooth;
+  
 }
 
 body {
+  margin:0;
+  padding: 0;
   font-family: "acumin-pro";
   font-weight: 300;
   font-style: normal;
+  background-image:url(888.png);
+  
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-
-
-/* transition */
-
-
-a,
-.btn {
+a{
   transition: all 300ms ease;
 }
 
 /*  Desktop Nav */
-
-
 .logo {
   
   align-items: center;
   height: 17vh;
   display: flex;
-  justify-content:
-}
+  justify-content: space-between;}
 .menu{
   gap: 1rem;
   list-style: none;
@@ -151,3 +143,5 @@ cursor: pointer;}
     display: flex;
 }
 }
+
+
