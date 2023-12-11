@@ -11,17 +11,24 @@
   <body>
     <nav id="desktop-nav">
       <div class="logo"> <a href="../index.html" class="home"> Milo Matukaitis </a> </div>
-      <div>
+      <div class="menu-container">
         <ul class="menu">
-        <li><a href="about.html"> about </a></li>
-        
-        <li><a href="cv.html"> cv </a></li>
-        <li><a href="works.html"> work </a></li>
-        <li><a href="contact.html"> contact</a></li>
+          <li><a href="about.html"> about </a></li>
+          <li><a href="cv.html"> cv  </a></li>
+          <li class="has-dropdown">
+            <a href="works.html"> work </a>
+            <ul class="sub-menu">
+              <li><a href="/pages/workpages/objects.html"> objects </a></li>
+              <li><a href="/pages/workpages/writing.html">  writing </a></li>
+              <li> <a href="/pages/workpages/misc.html"> misc. </a></li>
+              <!-- Add more projects as needed -->
+            </ul>
+          </li>
+          <li><a href="contact.html"> contact</a></li>
         </ul>
       </div>
     </nav>
-    <nav id="mobile-nav">
+     <nav id="mobile-nav">
       <div class="logo"><a href="../index.html" class="home"> Milo Matukaitis </a></div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
@@ -36,7 +43,10 @@
           <li><a href="contact.html"onclick="toggleMenu()"> Contact</a></li>
         </div>
       </div>
-    </nav>
+    </nav> 
+
+
+
 
   </body>
 </html>
